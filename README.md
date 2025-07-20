@@ -45,8 +45,12 @@ PostgreSQL JDBC Driver (add to lib/)
 
 ---
 **Configure JDBC in servlet** :
-String url = "jdbc:postgresql://localhost:5432/quizdb";
-String user = "your_username";
-String password = "your_password";
+-String url = "jdbc:postgresql://localhost:5432/quizdb";
+
+-String user = "your_username";
+
+-String password = "your_password";
+
 Connection conn = DriverManager.getConnection(url, user, password);
+
 ---
